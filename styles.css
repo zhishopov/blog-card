@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  font-family: "Sora";
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  box-shadow: 10px 5px 5px #e5eaf0;
+  padding: 20px;
+}
+
+hr {
+  width: 100%;
+  border: 0.5px solid #e5eaf0;
+}
+
+.design {
+  color: #7c19ee;
+  background-color: #f2eafd;
+  width: 65px;
+  padding: 4px;
+  border-radius: 30%;
+  font-weight: bold;
+}
+
+h3 {
+  color: #20293a;
+}
+
+.text {
+  color: #394150;
+  width: 100%;
+}
+
+.author {
+  text-align: left;
+}
+
+.art img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
